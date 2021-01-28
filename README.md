@@ -1,6 +1,5 @@
 # Read Me Template
 
-![Project Image](project-image-url)
 
 > This is a ReadMe template to help save you time and effort.
 
@@ -9,7 +8,7 @@
 ### Table of Contents
 You're sections headers will be used to reference location of destination.
 
-- [Description](#description)
+- [Description](#grinf)
 - [How To Use](#how-to-use)
 - [References](#references)
 - [License](#license)
@@ -17,7 +16,7 @@ You're sections headers will be used to reference location of destination.
 
 ---
 
-## Description
+## Grinf
 
 Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
 
