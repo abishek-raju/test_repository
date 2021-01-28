@@ -27,37 +27,37 @@
 - [References](#references)
 ---
 
-## encoded_from_base10
+### encoded_from_base10
 
-## digit_map
+### digit_map
 
-## ValueError
+### ValueError
 
-##  math
+###  math
 
-## isclose
+### isclose
 
-## absolute
+### absolute
 
-## relative
+### relative
 
-## tolerance
+### tolerance
 
-## bin
+### bin
 
-## hex
+### hex
 
-## round
+### round
 
-## truncation
+### truncation
 
-## error
+### error
 
-## equality
+### equality
 
 ### zero
 
-## away
+### away
 
 
 
