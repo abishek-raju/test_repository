@@ -13,7 +13,23 @@ You're sections headers will be used to reference location of destination.
 - [References](#references)
 - [License](#license)
 - [Author Info](#author-info)
-
+- [int](#int),
+    'encoded_from_base10',
+    'digit_map',
+    'ValueError',
+    'math',
+    'isclose',
+    'absolute',
+    'relative',
+    'tolerance',
+    'bin(',
+    'hex(',
+    'round',
+    'truncation',
+    'error',
+    'equality',
+    'zero',
+    'away'
 ---
 
 ## Grinf
@@ -76,7 +92,7 @@ SOFTWARE.
 [Back To The Top](#read-me-template)
 
 ---
-
+## int
 ## Author Info
 
 - Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
