@@ -27,35 +27,39 @@
 - [References](#references)
 ---
 
+## encoded_from_base10
+
+## digit_map
+
+## ValueError
+
+##  math
+
+## isclose
+
+## absolute
+
+## relative
+
+## tolerance
+
+## bin
+
+## hex
+
+## round
+
+## truncation
+
+## error
+
+## equality
+
+## zero
+
+## away
 
 
-sadfdsfdfs
-asdfafd
-
-sadfdasf
-
-sadfdasfadsf
-
-sadfdasfdasf
-
-asdfadsfadsf
-
-sdfsadfasdf
-
-asdfdasfdasf
-
-sdfdsawedsdaf
-sdfar
-
-sadfasdrfwa4e
-
-
-
-sardarfde3r
-
-asfaewfef
-
-dfe
 
 
 
