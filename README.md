@@ -1,101 +1,56 @@
-# Read Me Template
+# Session 3
 
 
-> This is a ReadMe template to help save you time and effort.
+> Assignment for session 3 EPAI
 
 ---
 
 ### Table of Contents
-You're sections headers will be used to reference location of destination.
 
-- [Description](#grinf)
-- [How To Use](#how-to-use)
-- [References](#references)
-- [License](#license)
-- [Author Info](#author-info)
 - [int](#int),
-    'encoded_from_base10',
-    'digit_map',
-    'ValueError',
-    'math',
-    'isclose',
-    'absolute',
-    'relative',
-    'tolerance',
-    'bin(',
-    'hex(',
-    'round',
-    'truncation',
-    'error',
-    'equality',
-    'zero',
-    'away'
+- [encoded_from_base10](#encoded_from_base10)
+- [digit_map](#digit_map)
+- [ValueError](#ValueError)
+- [math](#math)
+- [isclose](#isclose)
+- [absolute](#absolute)
+- [relative](#relative)
+- [tolerance](#tolerance)
+- [bin(](#bin)
+- [hex(](#hex)
+- [round](#round)
+- [truncation](#truncation)
+- [error](#error)
+- [equality](#equality)
+- [zero](#zero)
+- [away](#away)
+- [References](#references)
 ---
 
-## Grinf
+sadsadsd
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+sadfasdf
 
-#### Technologies
+asdfsadf
 
-- Technology 1
-- Technology 2
+asdfasdfa
 
-[Back To The Top](#read-me-template)
+sadfadsfadsf
 
----
+asdfadsf
 
-## How To Use
+asdfadsfadsf
+asdfadsfa
 
-#### Installation
+asdfasdfadsf
 
+sdfdsfdsf
 
+sdfdsafadsf
 
-#### API Reference
+sdfdasfd
+##away
+##references
 
-```html
-    <p>dummy code</p>
-```
-[Back To The Top](#read-me-template)
+[Back To The Top](#)
 
----
-
-## References
-[Back To The Top](#read-me-template)
-
----
-
-## License
-
-MIT License
-
-Copyright (c) [2017] [James Q Quick]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-[Back To The Top](#read-me-template)
-
----
-## int
-## Author Info
-
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
-
-[Back To The Top](#read-me-template)
