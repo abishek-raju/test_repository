@@ -55,7 +55,7 @@
 
 ## equality
 
-## zero
+### zero
 
 ## away
 
