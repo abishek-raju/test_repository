@@ -1,90 +1,19 @@
-# EPAI
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun May 16 15:22:14 2021
+
+@author: rampfire
+"""
 
 
-
-### Contents
-[1.time_it](#timeit)
-
-[2.squared_power_list](#squaredpowerlist)
-
-[3.polygon_area](#polygonarea)
-
-[4.temp_converter](#tempconverter)
-
-[5.speed_converter](#speedconverter)
-
-[6.test cases](#testcases)
- 
-**1.time_it:**<a name="timeit"></a>
-```python
-def time_it(fn, *args, repetitons=1, **kwargs):
-    if repetitons < 0:
-        raise ValueError(f"repetitons cannot be less than zero")
-    start_time = time.perf_counter()
-
-    for i in range(repetitons):
-        fn(*args, **kwargs)
-
-    return time.perf_counter()-start_time
-```
-Function takes input as another function and executes the same function for repetitions times and calculates the total time taken.
-If the repetitions is less than zero ValueError is raised
-
-**2.squared_power_list:**<a name="squaredpowerlist"></a>
-```python
-def squared_power_list(num,*,start=0, end=5):
-    return [num**i for i in range(start,end+1)]
-```
-Functions takes the power(num) to which the number has to be raised,also  using the range function which also uses the start and end values.
-Some Examples:
-```python
-In[36]:squared_power_list(3,start=0, end=5)
-Out[36]: [1, 3, 9, 27, 81, 243]
-
-In[37]:squared_power_list(2,start=0, end=5)
-Out[37]: [1, 2, 4, 8, 16, 32]
-``` 
-**3.polygon_area:**<a name="polygonarea"></a>
-```python
-def polygon_area(side_length,*,sides):
-    sqrt_3 = math.sqrt(3)
-    if sides not in area.keys():
-        raise ValueError("sides not valid")
-    area = {3:(sqrt_3/4)*(side_length**2),
-            4:side_length**2,
-            5:(1/4)*math.sqrt(5*(5+(2*math.sqrt(5))))*(side_length**2),
-            6:(3/2)*sqrt_3*(side_length**2)}
-    return area[sides]
-```
-Function takes the length of a polygon as an input and the number of sides the polygon has and computes the area of the respective polygon. One important point to note here is all the side length's are assumed to be of same.
-
-**4.temp_converter:**<a name="tempconverter"></a>
-```python
-def temp_converter(temp,*,temp_given_in):
-    if temp_given_in =="c":
-        return (temp*(9/5)) + 32
-    elif temp_given_in == "f":
-        return (temp - 32)*(5/9)
-    else:
-        raise ValueError("temp_given_in not valid")
-```
-Function takes the temperature given in either celsius("c") or fahrenhiet("f") converts to the other.
-
-**5.speed_converter:**<a name="speedconverter"></a>
-```python
-def speed_converter(speed,*,dist,time):
-    km_conv = {"km":1,"m":1000,"ft":3280,"yrd":1093}
-    time_conv = {"hr":1,"day":0.0416667,"m":60,"s":3600,"ms":3600000}
-    if (dist not in km_conv.keys()) or (time not in time_conv.keys()):
-        raise ValueError("dist or time units invalid")
-    return speed*(km_conv[dist]/time_conv[time])
-
-```
-Here the speed from the user is assumed to be in "kmph".So to convert the length from "km" to any one of "km/m/ft/yrd" measure's we just have to **multiply** the given value with the length conversion factor.
-Similarly to convert the speed from "per hour" measure to one of "ms/s/m/hr/day" we have to **divide** the given value with the time conversion factor.
-
-**5.test cases:**<a name="testcases"></a>
-```python
+import pytest
+import os
+import inspect
+import re
+import session4 as program
+import test_session
+import math
 CHECK_FOR_FUNCT_IMPL = ["time_it",
                         "squared_power_list",
                         "polygon_area",
@@ -221,8 +150,7 @@ def test_speed_converter_kmph_kmps():
 
 def test_speed_converter_kmph_kmpday():
     math.isclose(program.speed_converter(speed = 100,dist = "km",time = "day"),2399.998)
-    
+
 def test_speed_converter_typeerror():
     with pytest.raises(TypeError):
         program.speed_converter(speed = "a",dist = "m",time = "s")
-```
